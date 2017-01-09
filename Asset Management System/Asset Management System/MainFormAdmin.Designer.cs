@@ -62,9 +62,9 @@
             // 
             // btnBarcodeWin
             // 
-            this.btnBarcodeWin.BackColor = System.Drawing.Color.Black;
+            this.btnBarcodeWin.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnBarcodeWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBarcodeWin.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBarcodeWin.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnBarcodeWin.Location = new System.Drawing.Point(719, 0);
             this.btnBarcodeWin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBarcodeWin.Name = "btnBarcodeWin";
