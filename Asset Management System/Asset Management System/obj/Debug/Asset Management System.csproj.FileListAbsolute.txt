@@ -1,0 +1,32 @@
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe.config
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset Management System.csprojResolveAssemblyReference.cache
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.Login.resources
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.Properties.Resources.resources
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset Management System.csproj.GenerateResource.Cache
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\bin\Debug\Asset Management System.pdb
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\bin\Debug\MySql.Data.dll
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\bin\Debug\MySql.Data.xml
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset Management System.exe
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset Management System.pdb
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.MainFormAdmin.resources
+C:\Users\Pua\Desktop\VBNET\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.MainFormCustodian.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe.config
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.exe
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.pdb
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\Asset Management System.pdb
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\MySql.Data.dll
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\MySql.Data.xml
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.csprojResolveAssemblyReference.cache
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.Login.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.MainFormAdmin.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.MainFormCustodian.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.Properties.Resources.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.csproj.GenerateResource.Cache
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.BarcodeGenerator.resources
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\obj\Debug\Asset_Management_System.NewAsset.resources
+C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe.config
+C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.exe
+C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.pdb
