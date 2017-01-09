@@ -38,7 +38,7 @@
             // 
             this.btnLogin.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLogin.Location = new System.Drawing.Point(204, 201);
+            this.btnLogin.Location = new System.Drawing.Point(121, 235);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(116, 40);
             this.btnLogin.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.chkShow.AutoSize = true;
             this.chkShow.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.chkShow.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkShow.Location = new System.Drawing.Point(39, 210);
+            this.chkShow.Location = new System.Drawing.Point(106, 188);
             this.chkShow.Name = "chkShow";
             this.chkShow.Size = new System.Drawing.Size(148, 24);
             this.chkShow.TabIndex = 3;

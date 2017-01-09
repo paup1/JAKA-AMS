@@ -161,6 +161,7 @@
             this.Controls.Add(this.btnGen);
             this.Controls.Add(this.pictureBox1);
             this.Name = "BarcodeGenerator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Barcode Generator";
             this.Load += new System.EventHandler(this.BarcodeGenerator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
