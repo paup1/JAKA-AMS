@@ -62,12 +62,13 @@
             // 
             // btnBarcodeWin
             // 
-            this.btnBarcodeWin.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBarcodeWin.BackColor = System.Drawing.Color.Black;
             this.btnBarcodeWin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBarcodeWin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnBarcodeWin.Location = new System.Drawing.Point(809, 0);
+            this.btnBarcodeWin.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnBarcodeWin.Location = new System.Drawing.Point(719, 0);
+            this.btnBarcodeWin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBarcodeWin.Name = "btnBarcodeWin";
-            this.btnBarcodeWin.Size = new System.Drawing.Size(89, 35);
+            this.btnBarcodeWin.Size = new System.Drawing.Size(79, 28);
             this.btnBarcodeWin.TabIndex = 1;
             this.btnBarcodeWin.Text = "Barcode";
             this.btnBarcodeWin.UseVisualStyleBackColor = false;
@@ -78,9 +79,10 @@
             this.btnLogout.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLogout.Location = new System.Drawing.Point(904, 0);
+            this.btnLogout.Location = new System.Drawing.Point(804, 0);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(89, 35);
+            this.btnLogout.Size = new System.Drawing.Size(79, 28);
             this.btnLogout.TabIndex = 2;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
@@ -97,7 +99,8 @@
             this.userLogToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1001, 33);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(890, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -112,13 +115,13 @@
             this.barcodeGeneratorToolStripMenuItem,
             this.assetTrackerToolStripMenuItem});
             this.assetsToolStripMenuItem.Name = "assetsToolStripMenuItem";
-            this.assetsToolStripMenuItem.Size = new System.Drawing.Size(75, 29);
+            this.assetsToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
             this.assetsToolStripMenuItem.Text = "Assets";
             // 
             // viewAllAssetsToolStripMenuItem
             // 
             this.viewAllAssetsToolStripMenuItem.Name = "viewAllAssetsToolStripMenuItem";
-            this.viewAllAssetsToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.viewAllAssetsToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.viewAllAssetsToolStripMenuItem.Text = "View all";
             // 
             // viewByToolStripMenuItem
@@ -127,51 +130,51 @@
             this.categoryToolStripMenuItem,
             this.typeToolStripMenuItem});
             this.viewByToolStripMenuItem.Name = "viewByToolStripMenuItem";
-            this.viewByToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.viewByToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.viewByToolStripMenuItem.Text = "View by";
             // 
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.categoryToolStripMenuItem.Text = "Category";
             // 
             // typeToolStripMenuItem
             // 
             this.typeToolStripMenuItem.Name = "typeToolStripMenuItem";
-            this.typeToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
+            this.typeToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.typeToolStripMenuItem.Text = "Type";
             // 
             // newAssetToolStripMenuItem
             // 
             this.newAssetToolStripMenuItem.Name = "newAssetToolStripMenuItem";
-            this.newAssetToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.newAssetToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.newAssetToolStripMenuItem.Text = "New Asset";
             this.newAssetToolStripMenuItem.Click += new System.EventHandler(this.newAssetToolStripMenuItem_Click);
             // 
             // newAssetTypeToolStripMenuItem
             // 
             this.newAssetTypeToolStripMenuItem.Name = "newAssetTypeToolStripMenuItem";
-            this.newAssetTypeToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.newAssetTypeToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.newAssetTypeToolStripMenuItem.Text = "New Asset Type";
             // 
             // calculateDepriciationToolStripMenuItem
             // 
             this.calculateDepriciationToolStripMenuItem.Name = "calculateDepriciationToolStripMenuItem";
-            this.calculateDepriciationToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.calculateDepriciationToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.calculateDepriciationToolStripMenuItem.Text = "Calculate Depreciation";
             // 
             // barcodeGeneratorToolStripMenuItem
             // 
             this.barcodeGeneratorToolStripMenuItem.Name = "barcodeGeneratorToolStripMenuItem";
-            this.barcodeGeneratorToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.barcodeGeneratorToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.barcodeGeneratorToolStripMenuItem.Text = "Barcode Generator";
             this.barcodeGeneratorToolStripMenuItem.Click += new System.EventHandler(this.barcodeGeneratorToolStripMenuItem_Click);
             // 
             // assetTrackerToolStripMenuItem
             // 
             this.assetTrackerToolStripMenuItem.Name = "assetTrackerToolStripMenuItem";
-            this.assetTrackerToolStripMenuItem.Size = new System.Drawing.Size(272, 30);
+            this.assetTrackerToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.assetTrackerToolStripMenuItem.Text = "Asset Tracker";
             // 
             // transactionsToolStripMenuItem
@@ -181,25 +184,25 @@
             this.checkOutToolStripMenuItem,
             this.repairLogdToolStripMenuItem});
             this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
-            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(120, 29);
+            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.transactionsToolStripMenuItem.Text = "Transactions";
             // 
             // checkInToolStripMenuItem
             // 
             this.checkInToolStripMenuItem.Name = "checkInToolStripMenuItem";
-            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.checkInToolStripMenuItem.Text = "Check In";
             // 
             // checkOutToolStripMenuItem
             // 
             this.checkOutToolStripMenuItem.Name = "checkOutToolStripMenuItem";
-            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.checkOutToolStripMenuItem.Text = "Check Out";
             // 
             // repairLogdToolStripMenuItem
             // 
             this.repairLogdToolStripMenuItem.Name = "repairLogdToolStripMenuItem";
-            this.repairLogdToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.repairLogdToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
             this.repairLogdToolStripMenuItem.Text = "Repair logs";
             // 
             // reportsToolStripMenuItem
@@ -208,13 +211,13 @@
             this.customReportsToolStripMenuItem,
             this.standardReportsToolStripMenuItem});
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
-            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(85, 29);
+            this.reportsToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
             this.reportsToolStripMenuItem.Text = "Reports";
             // 
             // customReportsToolStripMenuItem
             // 
             this.customReportsToolStripMenuItem.Name = "customReportsToolStripMenuItem";
-            this.customReportsToolStripMenuItem.Size = new System.Drawing.Size(234, 30);
+            this.customReportsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.customReportsToolStripMenuItem.Text = "Custom Reports";
             // 
             // standardReportsToolStripMenuItem
@@ -224,25 +227,25 @@
             this.depreciationToolStripMenuItem,
             this.checkOutToolStripMenuItem1});
             this.standardReportsToolStripMenuItem.Name = "standardReportsToolStripMenuItem";
-            this.standardReportsToolStripMenuItem.Size = new System.Drawing.Size(234, 30);
+            this.standardReportsToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
             this.standardReportsToolStripMenuItem.Text = "Standard Reports";
             // 
             // assetToolStripMenuItem
             // 
             this.assetToolStripMenuItem.Name = "assetToolStripMenuItem";
-            this.assetToolStripMenuItem.Size = new System.Drawing.Size(197, 30);
+            this.assetToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
             this.assetToolStripMenuItem.Text = "Asset";
             // 
             // depreciationToolStripMenuItem
             // 
             this.depreciationToolStripMenuItem.Name = "depreciationToolStripMenuItem";
-            this.depreciationToolStripMenuItem.Size = new System.Drawing.Size(197, 30);
+            this.depreciationToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
             this.depreciationToolStripMenuItem.Text = "Depreciation";
             // 
             // checkOutToolStripMenuItem1
             // 
             this.checkOutToolStripMenuItem1.Name = "checkOutToolStripMenuItem1";
-            this.checkOutToolStripMenuItem1.Size = new System.Drawing.Size(197, 30);
+            this.checkOutToolStripMenuItem1.Size = new System.Drawing.Size(170, 26);
             this.checkOutToolStripMenuItem1.Text = "Check out";
             // 
             // usersToolStripMenuItem
@@ -251,19 +254,19 @@
             this.viewAllToolStripMenuItem,
             this.newUserToolStripMenuItem});
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(67, 29);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
             this.usersToolStripMenuItem.Text = "Users";
             // 
             // viewAllToolStripMenuItem
             // 
             this.viewAllToolStripMenuItem.Name = "viewAllToolStripMenuItem";
-            this.viewAllToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.viewAllToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.viewAllToolStripMenuItem.Text = "View all";
             // 
             // newUserToolStripMenuItem
             // 
             this.newUserToolStripMenuItem.Name = "newUserToolStripMenuItem";
-            this.newUserToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.newUserToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
             this.newUserToolStripMenuItem.Text = "New User";
             // 
             // userLogToolStripMenuItem
@@ -271,33 +274,35 @@
             this.userLogToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewToolStripMenuItem});
             this.userLogToolStripMenuItem.Name = "userLogToolStripMenuItem";
-            this.userLogToolStripMenuItem.Size = new System.Drawing.Size(90, 29);
+            this.userLogToolStripMenuItem.Size = new System.Drawing.Size(76, 24);
             this.userLogToolStripMenuItem.Text = "User log";
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(116, 26);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // ucViewAssets1
             // 
-            this.ucViewAssets1.Location = new System.Drawing.Point(174, 249);
+            this.ucViewAssets1.Location = new System.Drawing.Point(155, 199);
+            this.ucViewAssets1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ucViewAssets1.Name = "ucViewAssets1";
-            this.ucViewAssets1.Size = new System.Drawing.Size(521, 227);
+            this.ucViewAssets1.Size = new System.Drawing.Size(463, 182);
             this.ucViewAssets1.TabIndex = 0;
             // 
             // MainFormAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1001, 620);
+            this.ClientSize = new System.Drawing.Size(890, 496);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.btnBarcodeWin);
             this.Controls.Add(this.ucViewAssets1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MainFormAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asset Management System";
