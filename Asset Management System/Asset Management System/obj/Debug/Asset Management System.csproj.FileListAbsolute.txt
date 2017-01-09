@@ -30,3 +30,6 @@ C:\Users\Pua\Desktop\Jaka AMS\Asset Management System\Asset Management System\ob
 C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe.config
 C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.exe
 C:\Users\Pua\Documents\GitHub\JAKA-AMS\Asset Management System\Asset Management System\obj\Debug\Asset Management System.pdb
+C:\Users\Angelito\Source\Repos\JAKA-AMS-DEV\Asset Management System\Asset Management System\bin\Debug\Asset Management System.exe.config
+C:\Users\Angelito\Source\Repos\JAKA-AMS-DEV\Asset Management System\Asset Management System\obj\Debug\Asset Management System.exe
+C:\Users\Angelito\Source\Repos\JAKA-AMS-DEV\Asset Management System\Asset Management System\obj\Debug\Asset Management System.pdb
