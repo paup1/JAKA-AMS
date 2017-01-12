@@ -27,7 +27,7 @@ namespace Asset_Management_System
             try
             {
 
-                string myConnection = "datasource=localhost;port=3306;username=root;password=root";
+                string myConnection = System.Configuration.ConfigurationManager.ConnectionStrings["AMSDatabase"].ConnectionString;
                 string Query = "select * from assetmanagement.assets where AssetId='" + this.txtAssetId.Text + "' and Barcode ='" + this.txtBarcode.Text + "' ;";
                 MySqlConnection myConn = new MySqlConnection(myConnection);
                 MySqlCommand SelectCommand = new MySqlCommand(Query, myConn);
@@ -54,9 +54,9 @@ namespace Asset_Management_System
                 }
                 else
                 {
-                    string constring = "datasource=localhost;port=3306;username=root;password=root";
+                    string myConnection2 = System.Configuration.ConfigurationManager.ConnectionStrings["AMSDatabase"].ConnectionString;
                     string QueryAdd = "insert into assetmanagement.assets (`AssetId`,`AssetType`,`AssetDescription`,`SerialNumber`,`Barcode`,`Quantity`,`Manufacturer`,`Model`,`Category`,`Condition`,`Location`,`Department`,`DateAcquired`,`InService`,`Supplier`,`Notes`,`AddedBy`,`DateAdded`) values ('" + this.txtAssetId.Text + "','" + this.txtAssetType.Text + "','" + this.txtAssetDesc.Text + "','" + this.txtSerial.Text + "','" + this.txtBarcode.Text + "','" + this.txtQuantity.Text + "','" + this.txtManufacturer.Text + "','" + this.txtModel.Text + "','" + this.txtCategory.Text + "','" + this.txtCondition.Text + "','" + this.txtLocation.Text + "','" + this.txtDepartment.Text + "','" + this.txtDateAcquired.Text + "','" + this.txtInService.Text + "','" + this.txtSupplier.Text + "','" + this.txtNotes.Text + "','" + this.txtAddedBy.Text + "','" + this.txtDateAdded.Text + "') ;";
-                    MySqlConnection connDataBase = new MySqlConnection(constring);
+                    MySqlConnection connDataBase = new MySqlConnection(myConnection2);
                     MySqlCommand cmdDataBase = new MySqlCommand(QueryAdd, connDataBase);
 
                     try
